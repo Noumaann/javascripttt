@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+<script>
+
+
+    //Object
+
+ /*   let user ={
+        name : "Nomi", age:24
+    };
+
+    alert (user.name);
+    alert (user.age);*/
+
+
+
+
+    //alert box
+   /* var a=10;
+    var b=20;
+
+    if (a > b){
+        alert("A is big"); 
+    }
+    else{
+        alert("B is big");
+    }  */
+
+    
+// Confirm Box
+
+ /*/var a=confirm("Do u like javascript ?");
+
+    if(a){
+        alert("Happy");
+    }
+    else{
+        alert("Sad");
+    }*/
+
+
+// Prompt Box
+ 
+ /*  var per= prompt("My percentage is");
+
+    if(per > 35 && per < 49 ){
+       document.write("second class")
+    }
+    else if(per > 80 && per <= 100) {
+        document.write("fitrst class");
+    }*/
+
+     
+
+    //Arithmetic opretor(+,-,*,**,/,%,++,--)
+
+      /*  var a = 4;
+        var b = 2;
+        document.write(a+b);
+        document.write("<br>");
+        a--;
+        document.write(a+b);*/
+
+    //Assignment operator(+=, -=, *=, **=, /=. %= )
+
+      /*  var a=5;
+        var b=2;
+        a**=b;
+        document.write(a);*/
+
+
+
+    //Comparison operator(==, ===, !=, !==, >, <, >=, <=)
+
+       /*/ var a= 10;
+        var b= "10";
+
+        console.log(a===b);*/
+
+
+//if(conditon)
+      /*  var a=10;
+        var b="10";
+
+        if(a === b){
+            document.write("A is Greater");
+        }*/
+
+
+    // Logical operator(&&, ||, !)
+
+       /* var a= 22;
+        var b= 15;
+
+        if(a >= 12 || b <= 14){
+            console.log("you are eligible");
+        }*/
+
+    //if else(condition)
+
+       /* var x= 10;
+         
+        if(x > 9){
+            document.write("Right");
+        }
+        else{
+            document.write("Wrong");
+        }*/
+
+    //if else is()
+        
+      /*  per = 99;
+
+        if(per >50 && per < 69){
+            document.write("second class");
+        }
+        else if(per >70 && per < 84){
+            document.write("Frist class");
+        }
+        else if(per >85 && per <=100){
+            document.write("Top class");
+        }
+        else if(per >33 && per < 49){
+            document.write("pass class");
+        }
+        else if(per <33 ){
+            document.write("fail");
+        }
+        else{ 
+        document.write("enter per");
+        }*/
+
+    //Conditional operator
+
+       /* var x=100;
+        var y;
+
+        (x > 5)? y="true" : y="false"
+
+        document.write(y);*/
+        
+
+    //switch
+
+        /*var age =29;
+
+        switch (true){
+            case(age>= 15 && age <=20):
+                document.write("eligible");
+        break;
+        case (age >= 21 && age<= 30):
+                document.write("Not eligible");
+        break;
+
+        default:
+            document.write("enter age");
+        }*/
+
+    //Events
+       /* function hello(){
+            alert("Hello Maa");
+        }*/
+
+      
+   /* double Click(ondblclick)
+    Right Click (oncontextmenu)
+
+    Mouse Hover (onmouseenter)
+    Mouse Out   (onmouseout)
+    Mouse Down  (onmousedown)
+    Mouse Up    (onmouseup)
+
+    Key Press (onkeypress)
+    Key Up    (onkeyup)
+
+    Load   (onload)
+    Unload (onunload)
+    Resize (onresize)
+    Scroll (onscroll)*/
+
+
+
+
+
+//While Loop
+
+  /*  var a=1;
+
+    while(a<=10){
+        document.write(a + ") Maa<br>");
+        a=a+1;
+    }
+
+    var b=10;
+
+    while(b >= 1){
+        document.write(b +")JS<br>")
+        b=b-1;
+    }*/
+
+//do while loop
+   /* var a=1;
+    do{
+        document.write("Hello Do while loop<br>");
+        a=a+1;
+    }
+    while(a <= 10)*/
+    
+
+// for loop
+    
+   /* for(var a=1; a<=10; a++){
+        document.write("Hello world<br>")
+    }*/
+
+//break and continue
+
+    /*for(var a=1; a<=10; a++){
+    if(a==3){
+        document.write("Nomi"+a+"<br>");
+        break;
+       // continue;
+    }
+        document.write(a+"<br>")
+    }*/
+
+//Even odd
+
+  /*  for(var a=1; a <= 10; a++){
+        if(a % 2 == 0){
+            document.write(a + "<br>")
+        }
+    }*/
+
+//Nested Loop
+
+   /* for(var a = 1; a <= 100; a = a+10){
+        for(var b = a; b <= a+10; b++)
+        {
+            document.write(b + " ");
+        }
+            document.write("<br>");
+    }*/
+
+
+    for(var a=1; a<=5; a++){
+        for (var b= 1; b<=a; b++){
+            document.write(b)
+        }
+    document.write("<br>")
+   } 
+
+
+   for(var a=1; a<=5; a++){
+        for (var b= 1; b<=a; b++){
+            document.write(a)
+        }
+    document.write("<br>")
+   } 
+
+
+
+
+    for(var a=5; a>=1; a--){
+        for (var b= a; b>=1; b--){
+            document.write(b)
+        }
+    document.write("<br>")
+   } 
+
+
+   for(var a=5; a>=1; a--){
+        for (var b= a; b>=1; b--){
+            document.write(a)
+        }
+    document.write("<br>")
+   } 
+    
+    
+
+</script>
+<!-- <button onclick="hello()">Click Me</button> -->
+   
+
+</body>
+</html>
